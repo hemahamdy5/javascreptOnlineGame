@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Quiz App</title>
+</head>
+
+<body>
+
+
+
+
+
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Question Text</h2>
+
+      <div id="picture">
+        <img name="pic" id="pic" class="pic" src="img/1.jpg" style="width: 30%; height: 5%" />
+      </div>
+
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer" />
+          <label for="a" id="a_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="b" class="answer" />
+          <label for="b" id="b_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="c" class="answer" />
+          <label for="c" id="c_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="d" class="answer" />
+          <label for="d" id="d_text">Answer</label>
+        </li>
+
+        <div class="tooltip">
+          HINT
+          <span id="tooltip" class="tooltiptext">Tooltip text</span>
+        </div>
+
+        <audio controls id="audio">
+          <source src="2.mp3" type="audio/mpeg" />
+        </audio>
+      </ul>
+    </div>
+
+    <button id="submit">Submit</button>
+  </div>
+  <a href="index2.html">
+    <button class="btn">back </button>
+  </a>
+  <style>
+    body {
+      background-image: url('clothes11.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 90% 90%;
+      background-size: cover;
+    }
+  </style>
+
+  <script src="clothes.js"></script>
+</body>
+
+</html>
